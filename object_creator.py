@@ -1,7 +1,7 @@
 from tag import Tag
 
 
-class CreateObject:
+class ObjectCreator:
     """This is the controller class. This include the connect to the database, and call the SQL class methods, then\
     create some data manipulation"""
 

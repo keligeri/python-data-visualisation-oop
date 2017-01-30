@@ -10,7 +10,7 @@ class ConnectAndQuery:
     def __init__(self):
         self.query = ""
         # use our connection values to establish a connection
-        self.conn = psycopg2.connect("dbname='keli' user='keli' host='localhost' password='pg_Abc5354!'")
+        self.conn = psycopg2.connect("dbname='keli' user='keli' host='localhost' password='***'")
         # set autocommit option, to do every query when we call it
         self.conn.autocommit = True
         # create a psycopg2 cursor that can execute queries
